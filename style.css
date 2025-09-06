@@ -16,6 +16,19 @@ body {
     height: 7rem;
 }
 
+.logo img {
+    height: 60px; /* lagom storlek, ändra efter smak */
+    width: auto; /* håller proportionerna */
+    margin-right: 20px;
+}
+
+.nav {
+    display: flex;
+    align-items: center; /* så logon och knapparna hamnar i samma rad */
+    justify-content: center; /* centrerar hela nav om du vill */
+}
+
+
 /* NAV-LISTA PÅ RAD */
 .nav__list {
     display: flex; /* rad istället för kolumn */
